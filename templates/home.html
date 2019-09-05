@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container white">
+
+    <!-- Page Layout here -->
+      <div class="col s12 ">
+        <div class="heading">
+          Podaj własne preferencje
+          </div>
+          <form action="#" class="padding1">
+      <p class="question"> Jak ważne jest dla Ciebie bezpieczeństwo?</p>
+    <p>
+    </p>
+    <p>
+      <label>
+        <input name="bezpieczenstwo" type="radio" value="1" checked/>
+        <span>W niewielkim stopniu</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="bezpieczenstwo" type="radio" value="2"  />
+        <span>Ważne</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="bezpieczenstwo" type="radio" value="3" />
+        <span>Bardzo ważne</span>
+      </label>
+    </p>
+
+      <p class="question"> Jak ważna jest dla Ciebie kultura?</p>
+    <p>
+    </p>
+    <p>
+      <label>
+        <input name="kultura" type="radio" value="1" checked />
+        <span>W niewielkim stopniu</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="kultura" type="radio" value="2" />
+        <span>Ważna</span>
+      </label>
+    </p>
+    <p>
+      <label>
+        <input name="kultura" type="radio" value="3" />
+        <span>Bardzo ważna</span>
+      </label>
+    </p>
+
+   <button class="btn waves-effect waves-light butt" type="submit" name="action" formaction="/map" >Potwierdź</button>
+           
+  </form>
+    
+        	
+
+      </div>
+
+
+          
+</div>
+
+{% endblock %}
